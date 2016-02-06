@@ -4,50 +4,17 @@
 
 [![Build Status](https://secure.travis-ci.org/skgtech/ghash-boilerplate.png?branch=master)](http://travis-ci.org/skgtech/ghash-boilerplate)
 
-## Install
+## Usage
 
-Install ... ?
-
-```
-npm install YADDAYADDA --save
-```
-
-## <a name='TOC'>Table of Contents</a>
-
-1. [Overview](#overview)
-1. [API](#api)
-
-## Overview
-
-Lorem ipsum trololol.
-
-## API
-
-One more to go back without onez has together we know!
-
-**[[⬆]](#TOC)**
-
-### <a name='toApi'>Getting an API Safe verison</a>
-
-> ### errInstance.toApi()
->
-> *Returns* `Object` A sanitized object.
-
-Clones the error object and strips it of all the `Error` getters (like `stack`) and the following attributes:
-    
-    * `srcError`
+Run the node app with the source file as argument:
 
 ```js
-var appErr = require('nodeon-error');
-
-var error = new appErr.Error();
-
-console.log(error.toApi());
+node . README.md
 ```
 
 ## Release History
 
-- **v0.0.1**, *TBD*
+- **v0.0.1**, *06 Feb 2016*
     - Big Bang
 
 ## License
