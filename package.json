@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "ghash",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/ghash",
   "description": "Google Hash code boilerplate",
   "homepage": "https://github.com/skgtech/ghash-boilerplate",
