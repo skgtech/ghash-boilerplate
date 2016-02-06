@@ -1,0 +1,49 @@
+{
+  "private": true,
+  "name": "ghash",
+  "version": "0.0.0",
+  "main": "./lib/ghash",
+  "description": "Google Hash code boilerplate",
+  "homepage": "https://github.com/skgtech/ghash-boilerplate",
+  "bugs": "https://github.com/skgtech/ghash-boilerplate/issues",
+  "authors": [
+    {
+      "name": "Thanasis Polychronakis",
+      "email": "thanpolas@gmail.com",
+      "url": "https://github.com/thanpolas"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skgtech/ghash-boilerplate"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/grunt jshint:lib && ./node_modules/.bin/mocha -b test/spec -u bdd  -R spec"
+  },
+  "dependencies": {
+    "bluebird": "~3.2.2",
+    "cip": "~1.0.0",
+    "command-line-args": "^2.1.4",
+    "lodash": "~4.2.1",
+    "nodeon-file": "^0.1.7"
+  },
+  "devDependencies": {
+    "grunt-release": "~0.13.0",
+    "grunt-contrib-jshint": "^0.12.0",
+    "load-grunt-tasks": "~3.4.0",
+    "mocha": "~2.4.5",
+    "grunt-mocha-test": "~0.12.7",
+    "grunt": "~0.4.5",
+    "chai": "~3.5.0",
+    "sinon": "~1.17.3",
+    "grunt-cli": "^0.1.13"
+  }
+}
